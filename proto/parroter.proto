@@ -1,0 +1,15 @@
+syntax = "proto3";
+package parroter;
+
+service ParrotService {
+      rpc say(ParrotRequest) returns (ParrotResponse) {}
+}
+
+message ParrotRequest {
+      string msg = 1;
+}
+
+message ParrotResponse {
+      string msg = 1;
+      int32  count = 2;
+}
