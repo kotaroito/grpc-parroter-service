@@ -24,7 +24,7 @@ TODO: Write usage instructions here
 
 ## Development
 
-    $ grpc_tools_ruby_protoc -Iproto --ruby_out=lib/parroter/pb --grpc_out=lib/parroter/pb proto/parroter.proto
+    $ grpc_tools_ruby_protoc -Iproto --ruby_out=lib --grpc_out=lib proto/parroter.proto
 
 ## Contributing
 
